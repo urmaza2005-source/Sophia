@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#FFE4E1">
+  <title>Sophia Dheavin Gumtang</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      /* Soft blush pink gradient background */
+      background: linear-gradient(145deg, #FFF0F5, #FFE4E1);
+      color: #4a4a4a; /* Professional dark gray instead of harsh black */
+      display: flex;
+      justify-content: center;
+    }
+    .page {
+      width: 100%;
+      max-width: 520px;
+      padding: 42px 22px 35px;
+      text-align: center;
+    }
+    .avatar {
+      width: 105px;
+      height: 105px;
+      margin: 0 auto 16px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 38px;
+      font-weight: 700;
+      color: white;
+      /* Muted, aesthetic rose gold/pink */
+      background: #D8A7B1; 
+      border: 4px solid white;
+      box-shadow: 0 8px 25px rgba(216, 167, 177, 0.3);
+    }
+    h1 { margin: 0; font-size: 25px; color: #333; }
+    .subtitle { margin: 6px 0 27px; color: #7a6b73; font-size: 15px; letter-spacing: 0.5px;}
+    .links { display: grid; gap: 13px; }
+    .links a {
+      display: block;
+      text-decoration: none;
+      color: #555;
+      background: white;
+      padding: 17px 18px;
+      border-radius: 15px;
+      font-weight: 600;
+      /* Soft pinkish shadow for the buttons */
+      box-shadow: 0 5px 18px rgba(216, 167, 177, 0.15);
+      transition: transform .15s ease, box-shadow .15s ease;
+    }
+    .links a:active { transform: scale(.98); }
+    .links a:hover { 
+      box-shadow: 0 8px 20px rgba(216, 167, 177, 0.35); 
+      color: #D8A7B1; 
+    }
+    footer { margin-top: 28px; color: #b59fa8; font-size: 12px; }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <div class="avatar" aria-label="Sophia Dheavin Gumtang profile placeholder">SG</div>
+
+    <h1>Sophia Dheavin Gumtang</h1>
+    <div class="subtitle">BSTM Student</div>
+
+    <div class="links">
+      <a href="https://www.instagram.com/p.hiatot.s?stkn=ZmQ0NmJmeXh5Zmx6&utm_source=qr" target="_blank" rel="noopener">📷 Instagram</a>
+      <a href="https://www.facebook.com/share/1DBtiYBhDn/?mibextid=wwXIfr" target="_blank" rel="noopener">📘 Facebook</a>
+      <a href="https://www.tiktok.com/@p.hia.tot?_r=1&_t=ZS-99m8yL6m7dw" target="_blank" rel="noopener">🎵 TikTok</a>
+      <a href="https://m.me/sophiadheavin.gumtang?hash=Aba1XikYyEWQbT47&source_id=8585216" target="_blank" rel="noopener">💬 Messenger</a>
+      <a href="mailto:sophiadheavin03@gmail.com">✉️ Email</a>
+    </div>
+
+    <footer>Tap • Connect • Follow</footer>
+  </main>
+</body>
+</html>
